@@ -2,7 +2,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-image:url('/images/bg-pattern-bottom.svg'),url('/images/bg-pattern-top.svg');
+    background-image:url('./images/bg-pattern-bottom.svg'),url('./images/bg-pattern-top.svg');
     background-color: rgb(21, 150, 150);
 }
 

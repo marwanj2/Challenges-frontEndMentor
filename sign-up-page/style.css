@@ -15,7 +15,7 @@ body{
 .container{
     width: 900px;
     height: 500px;
-    background-image: url('/images/bg-intro-desktop.png');
+    background-image: url('./images/bg-intro-desktop.png');
     background-color: rgba(255, 96, 68, 0.829);
     display: flex;
     color: white;

@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.container{
+    display: table;
+    width: 290px;
+    table-layout: fixed;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.container div {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: table-cell;
+    width: 100%;
+    height: 400px;
+    padding: 40px 40px 0 40px;
+    
+}    
+
+
+.container .div1 {
+    background-color: rgb(211, 140, 9); 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.container .div2{
+    background-color: rgb(18, 122, 129);
+}
+
+
+.container .div3{
+    background-color: rgb(16, 74, 78); 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.container div h2{
+    margin: 30px 0 0 0;
+}
+
+.container div p{
+    margin: 30px 0 0 0;
+    font-size: 13px;
+}
+
+.container div input {
+    border: none;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 15px 30px;
+    margin: 70px 0 0 0;
+    cursor: pointer;
+}
+
+.container div input[name="btn1"]{
+    color: rgb(211, 140, 9)
+}
+
+.container div input[name="btn2"]{
+    color: rgb(18, 122, 129);    
+}
+
+.container div input[name="btn3"]{
+    color: rgb(16, 74, 78);   
+}

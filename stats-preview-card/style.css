@@ -1,0 +1,61 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:hsl(227, 50%, 7%);
+}
+
+.m3alem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.m3alem .container{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 150px;
+    width: 900px;
+    height: 350px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 9px 3px rgba(6,2,53,0.77); 
+    box-shadow: 0px 0px 9px 3px rgba(6,2,53,0.77);
+}
+
+.m3alem .container .text-area{
+    padding: 0;
+    margin: 0;
+    width: 500px;
+    background-color: rgb(27, 11, 43);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.m3alem .container .text-area .square {
+    padding: 20px 70px 20px 40px;
+}
+
+.m3alem .container .text-area .square p{
+    color: lightgray;
+    font-size: 14px;
+}
+
+.m3alem .container .text-area div{
+    display: inline-block;
+    padding-right: 57px;
+    
+}
+
+.m3alem .container .image-area img{
+    width: 400px;
+    height: 350px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    filter: url(#svgTint)
+
+}
